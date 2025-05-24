@@ -8,8 +8,7 @@ public class CartItemEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private Long productId;
-    private String name;
+    private Long productId; private String name;
     private double price;
     private int quantity;
 
